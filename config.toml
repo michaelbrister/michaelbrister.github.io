@@ -36,7 +36,7 @@ enableRobotsTXT = true
     ]
 
   [params.theme]
-    defaultTheme = "light"
+    defaultTheme = "dark"
     disableThemeToggle = false
 
   [params.navbar]
@@ -57,7 +57,6 @@ enableRobotsTXT = true
 
   [params.hero]
     enable = true
-    intro = "Hi, my name is"
     title = "Mike Brister"
     subtitle = "Senior DevOps Engineer"
     content = "I modernize cloud platforms, build resilient infrastructure with Terraform, and deliver zero-downtime CI/CD pipelines across AWS and Azure."

@@ -15,11 +15,25 @@ enableRobotsTXT = true
 
 [params]
   title = "Mike Brister"
-  description = "Personal website and professional profile of Mike Brister."
+  description = "Senior DevOps Engineer with 17+ years of experience in AWS, Terraform, CI/CD, and resilient cloud infrastructure."
   favicon = "/fav.png"
   useBootstrapCDN = false
   mathjax = false
   animate = true
+  images = ["/images/social-preview.jpg"]
+
+  [params.seo]
+    socialImage = "/images/social-preview.jpg"
+
+  [params.person]
+    name = "Mike Brister"
+    jobTitle = "Senior DevOps Engineer"
+    email = "mike@mikebrister.com"
+    url = "https://michaelbrister.github.io/"
+    sameAs = [
+      "https://github.com/michaelbrister",
+      "https://linkedin.com/in/michaelbrister"
+    ]
 
   [params.theme]
     defaultTheme = "light"
@@ -37,7 +51,7 @@ enableRobotsTXT = true
       disableAbout = false
       disableExperience = false
       disableEducation = true
-      disableProjects = false
+      disableProjects = true
       disableAchievements = true
       disableContact = false
 
@@ -45,8 +59,8 @@ enableRobotsTXT = true
     enable = true
     intro = "Hi, my name is"
     title = "Mike Brister"
-    subtitle = "I build reliable software systems"
-    content = "I design and deliver practical backend and cloud solutions that are maintainable, testable, and aligned with business goals."
+    subtitle = "Senior DevOps Engineer"
+    content = "I modernize cloud platforms, build resilient infrastructure with Terraform, and deliver zero-downtime CI/CD pipelines across AWS and Azure."
     image = "/hero.svg"
 
     [params.hero.bottomImage]
@@ -70,54 +84,49 @@ enableRobotsTXT = true
   [params.about]
     enable = true
     title = "About Me"
-    content = "I am a software engineer focused on building dependable applications and improving developer workflows. I enjoy turning requirements into production-ready systems and collaborating across teams to ship high-quality outcomes."
+    content = "Senior DevOps Engineer with 17+ years of experience across systems, networking, and cloud infrastructure, with a primary focus on AWS. I specialize in platform modernization, Terraform-based infrastructure as code, and designing resilient production systems that scale reliably."
 
     [params.about.skills]
       enable = true
       title = "Core skills"
       items = [
-        "Backend Development",
-        "API Design",
-        "Cloud Infrastructure",
-        "CI/CD Automation",
-        "Data Modeling",
-        "Observability"
+        "AWS and Azure Cloud Infrastructure",
+        "Terraform and Infrastructure as Code",
+        "CI/CD Architecture and Automation",
+        "Blue/Green and Zero-Downtime Deployments",
+        "RBAC and Access Control Hardening",
+        "Production Incident Response and Reliability"
       ]
 
   [params.experience]
     enable = true
     [[params.experience.items]]
-      company = "Current Role"
-      companyUrl = "https://github.com/michaelbrister"
+      company = "Current Company"
       [[params.experience.items.jobs]]
-        name = "Software Engineer"
+        name = "Senior DevOps Engineer"
         date = "Recent"
-        content = "Building and maintaining production services, improving release workflows, and partnering with stakeholders to deliver reliable software."
+        content = "Led a cross-functional redesign and migration of the primary production website, modernized legacy Terraform, improved Azure DevOps deployment safety with slot swaps, built GitHub Actions workflows for Terraform, and led Azure RBAC cleanup and operational automation."
+    [[params.experience.items]]
+      company = "Previous Role"
+      [[params.experience.items.jobs]]
+        name = "Principal DevOps Engineer"
+        date = "Previous"
+        content = "Worked with clients and vendors on solution design and implementation, oversaw configuration management, security and performance monitoring, incident response, and troubleshooting, and developed/tested infrastructure automation to improve engineering practices."
+    [[params.experience.items]]
+      company = "Role Before That"
+      [[params.experience.items.jobs]]
+        name = "Senior Operations Engineer"
+        date = "Earlier"
+        content = "Created internal, staging, and production environments on AWS ECS, built Jenkins CI/CD pipelines for Docker to ECS, automated configuration management with Ansible and infrastructure with CloudFormation, managed Linux and Windows server estates, implemented Prometheus monitoring, and served as an escalation point for IT and network teams."
 
   [params.projects]
-    enable = true
-    [[params.projects.items]]
-      title = "Project 1"
-      content = "Short summary of impact, tech stack, and your role."
-      image = "/project-placeholder.jpg"
-      badges = ["Backend", "Cloud"]
-      [params.projects.items.featured]
-        name = "GitHub"
-        link = "https://github.com/michaelbrister"
-    [[params.projects.items]]
-      title = "Project 2"
-      content = "Short summary of impact, tech stack, and your role."
-      image = "/project-placeholder.jpg"
-      badges = ["Automation", "DevOps"]
-      [params.projects.items.featured]
-        name = "GitHub"
-        link = "https://github.com/michaelbrister"
+    enable = false
 
   [params.contact]
     enable = true
     content = "My inbox is open for opportunities, collaboration, or a quick intro."
     btnName = "Email me"
-    btnLink = "mailto:you@example.com"
+    btnLink = "mailto:mike@mikebrister.com"
 
   [params.footer]
     [params.footer.recentPosts]

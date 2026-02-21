@@ -1,10 +1,10 @@
 ---
 title: "Resume"
-description: "Detailed professional experience for Mike Brister."
+description: "Detailed professional experience for Michael Brister."
 tags: []
 ---
 
-## Mike Brister
+## Michael Brister
 
 Senior DevOps Engineer with 17+ years of experience across systems, networking, and cloud infrastructure, with a primary focus on AWS. I specialize in platform modernization, Terraform-based infrastructure as code, and resilient production systems.
 

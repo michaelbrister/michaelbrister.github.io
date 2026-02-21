@@ -1,136 +1,58 @@
-baseURL = "https://michaelbrister.github.io/"
-languageCode = "en-us"
 title = "Mike Brister"
-theme = "hugo-profile"
-enableRobotsTXT = true
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "RSS"]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+baseURL = "https://michaelbrister.github.io/"
+theme = "hugo-resume"
+languageCode = "en-us"
+enableGitInfo = false
 
 [params]
-  title = "Mike Brister"
-  description = "Senior DevOps Engineer with 17+ years of experience in AWS, Terraform, CI/CD, and resilient cloud infrastructure."
-  favicon = "/fav.png"
-  useBootstrapCDN = false
-  mathjax = false
-  animate = true
-  images = ["/images/social-preview.jpg"]
+description = "Senior DevOps Engineer with 17+ years of experience in AWS, Terraform, CI/CD, and resilient cloud infrastructure."
+address = "Remote, United States"
+email = "mike@mikebrister.com"
+favicon = "/img/profile.jpg"
+firstName = "Mike"
+lastName = "Brister"
+phone = ""
+profileImage = "img/profile.jpg"
+showQr = false
+showContact = true
+showBoards = false
+showCertifications = false
+showSocializations = true
+sections = ["skills", "experience"]
+vcardfields = [
+  "name",
+  "image",
+  "org",
+  "email",
+  "url",
+  "title"
+]
 
-  [params.seo]
-    socialImage = "/images/social-preview.jpg"
+[[params.handles]]
+name = "LinkedIn"
+link = "https://www.linkedin.com/in/michael-brister-0929ab/"
 
-  [params.person]
-    name = "Mike Brister"
-    jobTitle = "Senior DevOps Engineer"
-    email = "mike@mikebrister.com"
-    url = "https://michaelbrister.github.io/"
-    sameAs = [
-      "https://github.com/michaelbrister",
-      "https://www.linkedin.com/in/michael-brister-0929ab/"
-    ]
+[[params.handles]]
+name = "GitHub"
+link = "https://github.com/michaelbrister"
 
-  [params.theme]
-    defaultTheme = "dark"
-    disableThemeToggle = false
+[[params.customSections]]
+name = "Resume"
+url = "/resume/"
 
-  [params.navbar]
-    brandName = "Mike Brister"
-    disableSearch = true
+[outputs]
+home = ["HTML", "JSON"]
 
-    [params.navbar.stickyNavBar]
-      enable = true
-      showOnScrollUp = true
+[taxonomies]
+tag = "tags"
 
-    [params.navbar.menus]
-      disableAbout = false
-      disableExperience = false
-      disableEducation = true
-      disableProjects = true
-      disableAchievements = true
-      disableContact = false
+[mediaTypes]
+  [mediaTypes."text/vcard"]
+    suffixes = ["vcf"]
 
-  [params.hero]
-    enable = true
-    title = "Mike Brister"
-    subtitle = "Senior DevOps Engineer"
-    content = "I modernize cloud platforms, build resilient infrastructure with Terraform, and deliver zero-downtime CI/CD pipelines across AWS and Azure."
-    image = "/hero.svg"
-
-    [params.hero.bottomImage]
-      enable = true
-
-    [params.hero.button]
-      enable = true
-      name = "Contact Me"
-      url = "#contact"
-      download = false
-      newPage = false
-
-    [params.hero.socialLinks]
-      [[params.hero.socialLinks.fontAwesomeIcons]]
-        icon = "fab fa-github"
-        url = "https://github.com/michaelbrister"
-      [[params.hero.socialLinks.fontAwesomeIcons]]
-        icon = "fab fa-linkedin"
-        url = "https://www.linkedin.com/in/michael-brister-0929ab/"
-
-  [params.about]
-    enable = true
-    title = "About Me"
-    content = "Senior DevOps Engineer with 17+ years of experience across systems, networking, and cloud infrastructure, with a primary focus on AWS. I specialize in platform modernization, Terraform-based infrastructure as code, and designing resilient production systems that scale reliably."
-
-    [params.about.skills]
-      enable = true
-      title = "Core skills"
-      items = [
-        "AWS and Azure Cloud Infrastructure",
-        "Terraform and Infrastructure as Code",
-        "CI/CD Architecture and Automation",
-        "Blue/Green and Zero-Downtime Deployments",
-        "RBAC and Access Control Hardening",
-        "Production Incident Response and Reliability"
-      ]
-
-  [params.experience]
-    enable = true
-    [[params.experience.items]]
-      company = "NeoGenomics Laboratories"
-      [[params.experience.items.jobs]]
-        name = "Senior DevOps Engineer"
-        date = "Apr 2024 - Present"
-        content = "Full-time. Led a cross-functional redesign and migration of the primary production website, modernized legacy Terraform, improved Azure DevOps deployment safety with slot swaps, built GitHub Actions workflows for Terraform, and led Azure RBAC cleanup and operational automation."
-    [[params.experience.items]]
-      company = "New Innovations, Inc."
-      [[params.experience.items.jobs]]
-        name = "Principal DevOps Engineer"
-        date = "Jul 2020 - Apr 2024"
-        content = "Full-time · Remote. Worked with clients and vendors on solution design and implementation, oversaw configuration management, security and performance monitoring, incident response, and troubleshooting, and developed/tested infrastructure automation to improve engineering practices."
-    [[params.experience.items]]
-      company = "Sermo"
-      [[params.experience.items.jobs]]
-        name = "Senior Operations Engineer"
-        date = "Feb 2008 - Jun 2020"
-        content = "Full-time. Created internal, staging, and production environments on AWS ECS, built Jenkins CI/CD pipelines for Docker to ECS, automated configuration management with Ansible and infrastructure with CloudFormation, managed Linux and Windows server estates, implemented Prometheus monitoring, and served as an escalation point for IT and network teams."
-
-  [params.projects]
-    enable = false
-
-  [params.contact]
-    enable = true
-    content = "My inbox is open for opportunities, collaboration, or a quick intro."
-    btnName = "Email me"
-    btnLink = "mailto:mike@mikebrister.com"
-
-  [params.footer]
-    [params.footer.recentPosts]
-      enable = false
-
-    [params.footer.socialNetworks]
-      github = "https://github.com/michaelbrister"
-      linkedin = "https://www.linkedin.com/in/michael-brister-0929ab/"
+[outputFormats]
+  [outputFormats.VCard]
+    mediaType = "text/vcard"
+    baseName = "contact"
+    isPlainText = true
+    notAlternative = true

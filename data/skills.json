@@ -1,0 +1,39 @@
+[
+  {
+    "grouping": "Cloud & Infrastructure",
+    "skills": [
+      { "name": "AWS", "devicon": "amazonwebservices" },
+      { "name": "Azure", "devicon": "azure" },
+      { "name": "Kubernetes", "devicon": "kubernetes" },
+      { "name": "Docker", "devicon": "docker" },
+      { "name": "Terraform", "devicon": "terraform" },
+      { "name": "Atlantis", "devicon": "terraform" },
+      { "name": "Digger", "devicon": "terraform" },
+      { "name": "CloudFormation", "devicon": "amazonwebservices" },
+      { "name": "Infrastructure as Code", "devicon": "git" }
+    ]
+  },
+  {
+    "grouping": "Delivery & Automation",
+    "skills": [
+      { "name": "CI/CD", "devicon": "github" },
+      { "name": "Azure DevOps", "devicon": "azuredevops" },
+      { "name": "GitHub Actions", "devicon": "githubactions" },
+      { "name": "Jenkins", "devicon": "jenkins" },
+      { "name": "ArgoCD", "devicon": "argocd" },
+      { "name": "Ansible", "devicon": "ansible" },
+      { "name": "Python", "devicon": "python" },
+      { "name": "Golang", "devicon": "go" }
+    ]
+  },
+  {
+    "grouping": "Reliability & Operations",
+    "skills": [
+      { "name": "Blue/Green Deployments", "devicon": "docker" },
+      { "name": "Production Incident Response", "devicon": "linux" },
+      { "name": "Monitoring", "devicon": "grafana" },
+      { "name": "Prometheus", "devicon": "prometheus" },
+      { "name": "RBAC and Access Control", "devicon": "kubernetes" }
+    ]
+  }
+]

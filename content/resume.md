@@ -8,6 +8,8 @@ tags: []
 
 Senior DevOps Engineer with 17+ years of experience across systems, networking, and cloud infrastructure, with a primary focus on AWS. I specialize in platform modernization, Terraform-based infrastructure as code, and resilient production systems.
 
+Last updated: February 2026
+
 ## Experience
 
 ### Senior DevOps Engineer | NeoGenomics Laboratories
@@ -22,7 +24,7 @@ Apr 2024 - Present · Full-time
 - Served as a senior escalation point for production incidents and mentored DevOps engineers.
 
 ### Principal DevOps Engineer | New Innovations, Inc.
-Jul 2020 - Apr 2024 · 3 yrs 10 mos · Full-time · Remote
+Jul 2020 - Apr 2024 · Full-time · Remote
 
 - Worked with clients and vendors to recommend solutions and support system design and implementation.
 - Oversaw configuration management, security and performance monitoring, incident response, and troubleshooting.
@@ -30,7 +32,7 @@ Jul 2020 - Apr 2024 · 3 yrs 10 mos · Full-time · Remote
 - Developed and tested infrastructure automation while working cross-functionally to execute and improve development plans.
 
 ### Senior Operations Engineer | Sermo
-Feb 2008 - Jun 2020 · 12 yrs 5 mos · Full-time
+Feb 2008 - Jun 2020 · Full-time
 
 - Created internal, staging, and production environments for multiple applications on AWS Elastic Container Service (ECS) clusters.
 - Created and maintained fully automated CI/CD pipelines for Docker containers deployed to Amazon ECS using Jenkins pipelines.
@@ -48,5 +50,4 @@ For the current skills summary, see the homepage section at [Core Skills](/#core
 ## Contact
 
 - Email: `mike@mikebrister.com`
-- GitHub: [github.com/mikebrister](https://github.com/mikebrister)
-- LinkedIn: [linkedin.com/in/michael-brister-0929ab](https://www.linkedin.com/in/michael-brister-0929ab/)
+- Social links: use the site footer (`GitHub` and `LinkedIn`)

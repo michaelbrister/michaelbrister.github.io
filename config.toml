@@ -109,13 +109,13 @@ enableRobotsTXT = true
       company = "New Innovations, Inc."
       [[params.experience.items.jobs]]
         name = "Principal DevOps Engineer"
-        date = "Jul 2020 - Apr 2024 · 3 yrs 10 mos"
+        date = "Jul 2020 - Apr 2024"
         content = "Full-time · Remote. Worked with clients and vendors on solution design and implementation, oversaw configuration management, security and performance monitoring, incident response, and troubleshooting, and developed/tested infrastructure automation to improve engineering practices."
     [[params.experience.items]]
       company = "Sermo"
       [[params.experience.items.jobs]]
         name = "Senior Operations Engineer"
-        date = "Feb 2008 - Jun 2020 · 12 yrs 5 mos"
+        date = "Feb 2008 - Jun 2020"
         content = "Full-time. Created internal, staging, and production environments on AWS ECS, built Jenkins CI/CD pipelines for Docker to ECS, automated configuration management with Ansible and infrastructure with CloudFormation, managed Linux and Windows server estates, implemented Prometheus monitoring, and served as an escalation point for IT and network teams."
 
   [params.projects]

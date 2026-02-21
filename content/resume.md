@@ -50,4 +50,5 @@ For the current skills summary, see the homepage section at [Core Skills](/#core
 ## Contact
 
 - Email: `mike@mikebrister.com`
-- Social links: use the site footer (`GitHub` and `LinkedIn`)
+- GitHub: [michaelbrister](https://github.com/michaelbrister)
+- LinkedIn: [michael-brister-0929ab](https://www.linkedin.com/in/michael-brister-0929ab/)

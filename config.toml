@@ -100,23 +100,23 @@ enableRobotsTXT = true
   [params.experience]
     enable = true
     [[params.experience.items]]
-      company = "Current Company"
+      company = "NeoGenomics Laboratories"
       [[params.experience.items.jobs]]
         name = "Senior DevOps Engineer"
-        date = "Recent"
-        content = "Led a cross-functional redesign and migration of the primary production website, modernized legacy Terraform, improved Azure DevOps deployment safety with slot swaps, built GitHub Actions workflows for Terraform, and led Azure RBAC cleanup and operational automation."
+        date = "Apr 2024 - Present"
+        content = "Full-time. Led a cross-functional redesign and migration of the primary production website, modernized legacy Terraform, improved Azure DevOps deployment safety with slot swaps, built GitHub Actions workflows for Terraform, and led Azure RBAC cleanup and operational automation."
     [[params.experience.items]]
-      company = "Previous Role"
+      company = "New Innovations, Inc."
       [[params.experience.items.jobs]]
         name = "Principal DevOps Engineer"
-        date = "Previous"
-        content = "Worked with clients and vendors on solution design and implementation, oversaw configuration management, security and performance monitoring, incident response, and troubleshooting, and developed/tested infrastructure automation to improve engineering practices."
+        date = "Jul 2020 - Apr 2024 · 3 yrs 10 mos"
+        content = "Full-time · Remote. Worked with clients and vendors on solution design and implementation, oversaw configuration management, security and performance monitoring, incident response, and troubleshooting, and developed/tested infrastructure automation to improve engineering practices."
     [[params.experience.items]]
-      company = "Role Before That"
+      company = "Sermo"
       [[params.experience.items.jobs]]
         name = "Senior Operations Engineer"
-        date = "Earlier"
-        content = "Created internal, staging, and production environments on AWS ECS, built Jenkins CI/CD pipelines for Docker to ECS, automated configuration management with Ansible and infrastructure with CloudFormation, managed Linux and Windows server estates, implemented Prometheus monitoring, and served as an escalation point for IT and network teams."
+        date = "Feb 2008 - Jun 2020 · 12 yrs 5 mos"
+        content = "Full-time. Created internal, staging, and production environments on AWS ECS, built Jenkins CI/CD pipelines for Docker to ECS, automated configuration management with Ansible and infrastructure with CloudFormation, managed Linux and Windows server estates, implemented Prometheus monitoring, and served as an escalation point for IT and network teams."
 
   [params.projects]
     enable = false

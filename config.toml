@@ -32,7 +32,7 @@ enableRobotsTXT = true
     url = "https://michaelbrister.github.io/"
     sameAs = [
       "https://github.com/michaelbrister",
-      "https://linkedin.com/in/michaelbrister"
+      "https://www.linkedin.com/in/michael-brister-0929ab/"
     ]
 
   [params.theme]
@@ -78,7 +78,7 @@ enableRobotsTXT = true
         url = "https://github.com/michaelbrister"
       [[params.hero.socialLinks.fontAwesomeIcons]]
         icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/michaelbrister"
+        url = "https://www.linkedin.com/in/michael-brister-0929ab/"
 
   [params.about]
     enable = true
@@ -133,4 +133,4 @@ enableRobotsTXT = true
 
     [params.footer.socialNetworks]
       github = "https://github.com/michaelbrister"
-      linkedin = "https://linkedin.com/in/michaelbrister"
+      linkedin = "https://www.linkedin.com/in/michael-brister-0929ab/"

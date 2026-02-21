@@ -49,4 +49,4 @@ For the current skills summary, see the homepage section at [Core Skills](/#core
 
 - Email: `mike@mikebrister.com`
 - GitHub: [github.com/mikebrister](https://github.com/mikebrister)
-- LinkedIn: [linkedin.com/in/mikebrister](https://linkedin.com/in/mikebrister)
+- LinkedIn: [linkedin.com/in/michael-brister-0929ab](https://www.linkedin.com/in/michael-brister-0929ab/)

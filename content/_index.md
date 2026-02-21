@@ -29,5 +29,5 @@ Detailed role bullets and full timeline are maintained in the [resume](/resume/)
 
 - Email: `mike@mikebrister.com`
 - GitHub: [github.com/mikebrister](https://github.com/mikebrister)
-- LinkedIn: [linkedin.com/in/mikebrister](https://linkedin.com/in/mikebrister)
+- LinkedIn: [linkedin.com/in/michael-brister-0929ab](https://www.linkedin.com/in/michael-brister-0929ab/)
 - Resume: [View full resume](/resume/)
